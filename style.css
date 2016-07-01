@@ -198,3 +198,36 @@ ul.unstyled {
 #features img{
   margin: 0 0 20px;
 }
+
+#vote{
+  background:url('../img/caps.jpg');
+  height:450px;
+  position:relative;
+  opacity:0.8;
+}
+
+#aaa{
+  top:1000;
+  position: absolute;
+  z-index:1;
+}
+
+
+#vote h3{
+  padding-top:30px;
+  color:#fff;
+}
+
+.opt{
+  margin-left: 10px;
+  background:rgba(255,255,255,.2); width:250px;
+  padding-bottom:5px;
+}
+
+.opt a:hover{
+  background:rgba(255,255,255,.2);
+}
+
+.opt a{
+  color:#fff;
+}

@@ -6,10 +6,10 @@
   		<title>Mt first website using bootstarp</title>
   		<meta name="description" content="">
   		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  		<link href="css/bootstrap.min.css" rel="stylesheet">
-  		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
-  	  <link href="css/style.css" rel="stylesheet">
-  		<script src="css/modernizr-2.6.2.min.js"></script>
+  		<link href="bootstrap_assgn/css/bootstrap.min.css" rel="stylesheet">
+  		<link href="bootstrap_assgn/css/bootstrap-glyphicons.css" rel="stylesheet">
+  	  <link href="bootstrap_assgn/css/style.css" rel="stylesheet">
+  		<script src="bootstrap_assgn/js/modernizr-2.6.2.min.js"></script>
       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   </head>
@@ -25,6 +25,7 @@
             <a href="/"><h3 class="navbar-brand">Cric Info</h3></a>
             <div class="nav-collapse collapse navbar-responsive-collapse">
               <ul class="nav navbar-nav">
+                <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
                 <li><a href="#">Live scores</a></li>
                 <li><a href="#">Schedule</a></li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">News <strong class="caret"></strong></a>
@@ -47,55 +48,53 @@
           </div>
         </div><!--end of nav bar-->
        </div><!--end of main container-->
-        <div class="carousel slide" id="mycarousel">
-  						<ol class="carousel-indicators">
-  							<li class="active" data-slide-to="0" data-target="#mycarousel"></li>
-  							<li data-slide-to="1" data-target="#mycarousel"></li>
-  							<li data-slide-to="2" data-target="#mycarousel"></li>
-  						</ol>
-  					<div class="carousel-inner">
-  					<div class="item active" id="slide1">
-              <!--<img src="img/t20_champ_large.jpg" alt="t20champs" />-->
-  						<div class="carousel-caption">
-  							<h4>West indies World t20 champions 2016</h4>
-  						</div>
-  					</div>
-  					<div class="item" id="slide2">
-              <!--<img src="img/ground-large.jpg" alt="ground" />-->
-  						<div class="carousel-caption">
-  							<h4>Beautiful Grounds all over the world</h4>
-  						</div>
-  					</div>
-  					<div class="item" id="slide3">
-              <!--<img src="img/evs-large.jpg" alt="England vs srilanka" />-->
-  						<div class="carousel-caption">
-  							<h4>EnglandVsSrilanka</h4>
-  							<p><a href="#mymodal" role="button" class="btn btn-success" data-toggle="modal">Watch Now</a></p>
-  						</div>
-  					</div>
-  				</div>
-  				<a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
-  				<a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
-  		  </div>
+       <div class="carousel slide" id="mycarousel">
+             <ol class="carousel-indicators">
+               <li class="active" data-slide-to="0" data-target="#mycarousel"></li>
+               <li data-slide-to="1" data-target="#mycarousel"></li>
+               <li data-slide-to="2" data-target="#mycarousel"></li>
+             </ol>
+           <div class="carousel-inner">
+           <div class="item active" id="slide1">
+             <!--<img src="img/t20_champ_large.jpg" alt="t20champs" />-->
+
+           </div>
+           <div class="item" id="slide2">
+             <!--<img src="img/ground-large.jpg" alt="ground" />-->
+             <div class="carousel-caption">
+               <h4>Beautiful Grounds all over the world</h4>
+             </div>
+           </div>
+           <div class="item" id="slide3">
+             <!--<img src="img/evs-large.jpg" alt="England vs srilanka" />-->
+             <div class="carousel-caption">
+               <h4>EnglandVsSrilanka</h4>
+               <p><a href="#mymodal" role="button" class="btn btn-success" data-toggle="modal">Watch Now</a></p>
+             </div>
+           </div>
+         </div>
+         <a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="icon-prev"></span></a>
+         <a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="icon-next"></span></a>
+       </div>
         <hr>
         <div class="container" id="bigcallout">
             <div class="row">
                   <h5>Videos</h5>
             </div>
             <div class="row">
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-xs-6">
                   <iframe width="350" src="https://www.youtube.com/embed/oeu3kHHQhZs" frameborder="0" allowfullscreen></iframe>
                   <p>Top 7 "Hat-Tricks" In Cricket History !</p>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-xs-6">
                 <iframe  width="350" src="https://www.youtube.com/embed/boHfs7nopHc" frameborder="0" allowfullscreen></iframe>
                 <p>Best Catches</p>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-xs-6">
                 <iframe  width="350" src="https://www.youtube.com/embed/S4e_pmIE4jE" frameborder="0" allowfullscreen></iframe>
                 <p>World Record Score Chase 438 </p>
               </div>
-              <div class="col-sm-3">
+              <div class="col-sm-3 col-xs-6">
                 <iframe width="350" src="https://www.youtube.com/embed/GDgnsdh1ZaU" frameborder="0" allowfullscreen></iframe>
                 <p>India record epic win</p>
               </div>
@@ -127,70 +126,70 @@
                        <tbody>
                          <tr>
                            <td>1</td>
-                           <td><span class="logo"><img src="img/auslogo.jpg" alt="Aus" /></span> Australia</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/auslogo.jpg" alt="Aus" /></span> Australia</td>
                            <td>32</td>
                            <td>3765</td>
                            <td>118</td>
                          </tr>
                          <tr>
                            <td>2</td>
-                           <td><span class="logo"><img src="img/indlogo.jpg" alt="Ind" /></span> India</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/indlogo.jpg" alt="Ind" /></span> India</td>
                            <td>20</td>
                            <td>2238</td>
                            <td>112</td>
                          </tr>
                          <tr>
                            <td>3</td>
-                           <td><span class="logo"><img src="img/paklogo.jpg" alt="Pak" /></span> Pakistan</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/paklogo.jpg" alt="Pak" /></span> Pakistan</td>
                            <td>20</td>
                            <td>2227</td>
                            <td>111</td>
                          </tr>
                          <tr>
                            <td>4</td>
-                           <td><span class="logo"><img src="img/ecblogo.png" alt="Eng" /></span> England</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/ecblogo.png" alt="Eng" /></span> England</td>
                            <td>36</td>
                            <td>3872</td>
                            <td>108</td>
                          </tr>
                          <tr>
                            <td>5</td>
-                           <td><span class="logo"><img src="img/nzlogo.png" alt="NZ" /></span> New Zealand</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/nzlogo.png" alt="NZ" /></span> New Zealand</td>
                            <td>25</td>
                            <td>2449</td>
                            <td>98</td>
                          </tr>
                          <tr>
                            <td>6</td>
-                           <td><span class="logo"><img src="img/rsalogo.jpg" alt="RSA" /></span> South Africa</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/rsalogo.jpg" alt="RSA" /></span> South Africa</td>
                            <td>22</td>
                            <td>2015</td>
                            <td>92</td>
                          </tr>
                          <tr>
                            <td>7</td>
-                           <td><span class="logo"><img src="img/sllogo.jpg" alt="RSA" /></span> Sri Lanka</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/sllogo.jpg" alt="RSA" /></span> Sri Lanka</td>
                            <td>28</td>
                            <td>2383</td>
                            <td>85</td>
                          </tr>
                          <tr>
                            <td>8</td>
-                           <td><span class="logo"><img src="img/wilogo.png" alt="WI" /></span> West Indies</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/wilogo.png" alt="WI" /></span> West Indies</td>
                            <td>21</td>
                            <td>1374</td>
                            <td>65</td>
                          </tr>
                          <tr>
                            <td>9</td>
-                           <td><span class="logo"><img src="img/bnglogo.jpg" alt="BNG" /></span> Bangladesh</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/bnglogo.jpg" alt="BNG" /></span> Bangladesh</td>
                            <td>12</td>
                            <td>687</td>
                            <td>57</td>
                          </tr>
                          <tr>
                            <td>10</td>
-                           <td><span class="logo"><img src="img/zimlogo.jpg" alt="ZIM" /></span> Zimbabwe</td>
+                           <td><span class="logo"><img src="bootstrap_assgn/img/zimlogo.jpg" alt="ZIM" /></span> Zimbabwe</td>
                            <td>4</td>
                            <td>487</td>
                            <td>12</td>
@@ -214,70 +213,70 @@
                         <tbody>
                           <tr>
                             <td>1</td>
-                            <td><span class="logo"><img src="img/auslogo.jpg" alt="Aus" /></span> Australia</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/auslogo.jpg" alt="Aus" /></span> Australia</td>
                             <td>40</td>
                             <td>4916</td>
                             <td>123</td>
                           </tr>
                           <tr>
                             <td>2</td>
-                            <td><span class="logo"><img src="img/nzlogo.png" alt="NZ" /></span> New Zealand</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/nzlogo.png" alt="NZ" /></span> New Zealand</td>
                             <td>41</td>
                             <td>4631</td>
                             <td>113</td>
                           </tr>
                           <tr>
                             <td>3</td>
-                            <td><span class="logo"><img src="img/indlogo.jpg" alt="Ind" /></span> India</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/indlogo.jpg" alt="Ind" /></span> India</td>
                             <td>48</td>
                             <td>5278</td>
                             <td>110</td>
                           </tr>
                           <tr>
                             <td>4</td>
-                            <td><span class="logo"><img src="img/rsalogo.jpg" alt="RSA" /></span> South Africa</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/rsalogo.jpg" alt="RSA" /></span> South Africa</td>
                             <td>46</td>
                             <td>5047</td>
                             <td>110</td>
                           </tr>
                           <tr>
                             <td>5</td>
-                            <td><span class="logo"><img src="img/ecblogo.png" alt="Eng" /></span> England</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/ecblogo.png" alt="Eng" /></span> England</td>
                             <td>43</td>
                             <td>4479</td>
                             <td>104</td>
                           </tr>
                           <tr>
                             <td>6</td>
-                            <td><span class="logo"><img src="img/sllogo.jpg" alt="SL" /></span> Sri Lanka</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/sllogo.jpg" alt="SL" /></span> Sri Lanka</td>
                             <td>48</td>
                             <td>4980</td>
                             <td>104</td>
                           </tr>
                           <tr>
                             <td>7</td>
-                            <td><span class="logo"><img src="img/bnglogo.jpg" alt="BNG" /></span> Bangladesh</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/bnglogo.jpg" alt="BNG" /></span> Bangladesh</td>
                             <td>24</td>
                             <td>2347</td>
                             <td>98</td>
                           </tr>
                           <tr>
                             <td>8</td>
-                            <td><span class="logo"><img src="img/wilogo.png" alt="WI" /></span> West Indies</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/wilogo.png" alt="WI" /></span> West Indies</td>
                             <td>30</td>
                             <td>2808</td>
                             <td>94</td>
                           </tr>
                           <tr>
                             <td>9</td>
-                            <td><span class="logo"><img src="img/paklogo.jpg" alt="Pak" /></span> Pakistan</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/paklogo.jpg" alt="Pak" /></span> Pakistan</td>
                             <td>42</td>
                             <td>3644</td>
                             <td>87</td>
                           </tr>
                           <tr>
                             <td>10</td>
-                            <td><span class="logo"><img src="img/zimlogo.jpg" alt="ZIM" /></span> Zimbabwe</td>
+                            <td><span class="logo"><img src="bootstrap_assgn/img/zimlogo.jpg" alt="ZIM" /></span> Zimbabwe</td>
                             <td>46</td>
                             <td>2112</td>
                             <td>46</td>
@@ -301,70 +300,70 @@
                          <tbody>
                            <tr>
                              <td>1</td>
-                             <td><span class="logo"><img src="img/nzlogo.png" alt="NZ" /></span> New Zealand</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/nzlogo.png" alt="NZ" /></span> New Zealand</td>
                              <td>20</td>
                              <td>2635</td>
                              <td>132</td>
                            </tr>
                            <tr>
                              <td>2</td>
-                             <td><span class="logo"><img src="img/indlogo.jpg" alt="Ind" /></span> India</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/indlogo.jpg" alt="Ind" /></span> India</td>
                              <td>25</td>
                              <td>3212</td>
                              <td>128</td>
                            </tr>
                            <tr>
                              <td>3</td>
-                             <td><span class="logo"><img src="img/wilogo.png" alt="WI" /></span> West Indies</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/wilogo.png" alt="WI" /></span> West Indies</td>
                              <td>18</td>
                              <td>2192</td>
                              <td>122</td>
                            </tr>
                            <tr>
                              <td>4</td>
-                             <td><span class="logo"><img src="img/rsalogo.jpg" alt="RSA" /></span> South Africa</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/rsalogo.jpg" alt="RSA" /></span> South Africa</td>
                              <td>23</td>
                              <td>2734</td>
                              <td>119</td>
                            </tr>
                            <tr>
                              <td>5</td>
-                             <td><span class="logo"><img src="img/ecblogo.png" alt="Eng" /></span> England</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/ecblogo.png" alt="Eng" /></span> England</td>
                              <td>20</td>
                              <td>2279</td>
                              <td>114</td>
                            </tr>
                            <tr>
                              <td>6</td>
-                             <td><span class="logo"><img src="img/auslogo.jpg" alt="Aus" /></span> Australia</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/auslogo.jpg" alt="Aus" /></span> Australia</td>
                              <td>19</td>
                              <td>2099</td>
                              <td>110</td>
                            </tr>
                            <tr>
                              <td>7</td>
-                             <td><span class="logo"><img src="img/paklogo.jpg" alt="Pak" /></span> Pakistan</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/paklogo.jpg" alt="Pak" /></span> Pakistan</td>
                              <td>28</td>
                              <td>2924</td>
                              <td>104</td>
                            </tr>
                            <tr>
                              <td>8</td>
-                             <td><span class="logo"><img src="img/sllogo.jpg" alt="SL" /></span> Sri Lanka</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/sllogo.jpg" alt="SL" /></span> Sri Lanka</td>
                              <td>25</td>
                              <td>2444</td>
                              <td>98</td>
                            </tr>
                            <tr>
                              <td>9</td>
-                             <td><span class="logo"><img src="img/zimlogo.jpg" alt="ZIM" /></span> Zimbabwe</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/zimlogo.jpg" alt="ZIM" /></span> Zimbabwe</td>
                              <td>22</td>
                              <td>1725</td>
                              <td>78</td>
                            </tr>
                            <tr>
                              <td>10</td>
-                             <td><span class="logo"><img src="img/bnglogo.jpg" alt="BNG" /></span> Bangladesh</td>
+                             <td><span class="logo"><img src="bootstrap_assgn/img/bnglogo.jpg" alt="BNG" /></span> Bangladesh</td>
                              <td>23</td>
                              <td>1708</td>
                              <td>74</td>
@@ -408,19 +407,27 @@
                 </a>
               </div>
             </div>
-            <div class="thumbnails row">
-  						<div class="col-sm-3" id="news">
-                <h3>Top Stories</h3>
-  							<div class="thumbnail">
-  								<img src="img/tamim.jpg" alt="psd to html" />
-  								<h4 class="caption"><a href="#">'I want to score 10,000 runs in either format' </a></h4>
-  								<p>
-  									Tamim Iqbal talks about rediscovering his batting form through 2015, and Bangladesh's shortage of cricket this year
-                    The year 2010 was a great one for me. In 2015, I knew what I was trying to achieve. I planned and I achieved. I wanted to score 1000 runs in all formats in 2015.
-  								</p>
-  								</div>
-  							</div>
-              </div>
+            <br>
+            <br>
+            <div class="col-sm-3 backdrop" id="vote">
+                 <h3>Who will win ICC Champions Trophy?</h3>
+                 <br>
+                 <div class="opt">
+                   <a href="#" class="list-group-item">India</a>
+                  </div>
+                  <div class="opt">
+                    <a href="#" class="list-group-item">Australia</a>
+                   </div>
+                   <div class="opt">
+                    <a href="#" class="list-group-item">England</a>
+                   </div>
+                   <div class="opt">
+                     <a href="#" class="list-group-item">New Zealand</a>
+                   </div>
+                   <div class="opt">
+                     <a href="#" class="list-group-item">Others</a>
+                   </div>
+                </div>
               </div>
               <div class="row" id="bigcallout">
                   <div class="well">
@@ -430,43 +437,43 @@
                     <div class="row">
                     <div class="col-sm-3">
                      <p>
-                       <a href="#"><img src="img/cook.jpg" alt="cook"  class="pull-left"/><span>Cook available for Essex-Kent County championship clash</span></a>
+                       <a href="#"><img src="bootstrap_assgn/img/cook.jpg" alt="cook"  class="pull-left"/><span>Cook available for Essex-Kent County championship clash</span></a>
                      </p>
                     </div>
                     <div class="col-sm-3">
                      <p>
-                      <a href="#"><img src="img/natwest.jpg" alt="natwest"  class="pull-left"/><span>2016 NatWest T20 Blast Week Seven Statistical Preview</span></a>
+                      <a href="#"><img src="bootstrap_assgn/img/natwest.jpg" alt="natwest"  class="pull-left"/><span>2016 NatWest T20 Blast Week Seven Statistical Preview</span></a>
                      </p>
                    </div>
                    <div class="col-sm-3">
                     <p>
-                     <a href="#"><img src="img/madsen.jpg" alt="madesn"  class="pull-left"/><span>Gubbins, Madsen star before rain curtails proceedings</span></a>
+                     <a href="#"><img src="bootstrap_assgn/img/madsen.jpg" alt="madesn"  class="pull-left"/><span>Gubbins, Madsen star before rain curtails proceedings</span></a>
                     </p>
                    </div>
                    <div class="col-sm-3">
                     <p>
-                     <a href="#"><img src="img/india-new-zealand.jpg" alt="indvsnz" class="pull-left"/><span>BCCI confirms dates of New Zealand home series</span></a>
+                     <a href="#"><img src="bootstrap_assgn/img/india-new-zealand.jpg" alt="indvsnz" class="pull-left"/><span>BCCI confirms dates of New Zealand home series</span></a>
                    </p>
                    <br>
                   </div>
                   <div class="col-sm-3">
                    <p>
-                    <a href="#"><img src="img/brendon.jpg" alt="brendon" class="pull-left"/><span>Playing in Trinidad is going to be amazing - Brendon McCullum</span></a>
+                    <a href="#"><img src="bootstrap_assgn/img/brendon.jpg" alt="brendon" class="pull-left"/><span>Playing in Trinidad is going to be amazing - Brendon McCullum</span></a>
                   </p>
                  </div>
                  <div class="col-sm-3">
                   <p>
-                   <a href="#"><img src="img/hashim-amla.jpg" alt="hashimamla" class="pull-left"/><span>Hashim Amla excited about his maiden stint in CPL</span></a>
+                   <a href="#"><img src="bootstrap_assgn/img/hashim-amla.jpg" alt="hashimamla" class="pull-left"/><span>Hashim Amla excited about his maiden stint in CPL</span></a>
                  </p>
                 </div>
                 <div class="col-sm-3">
                  <p>
-                  <a href="#"><img src="img/mickey-arthur.jpg" alt="micky-arthur" class="pull-left"/><span>Skill levels in the Pakistan team are unbelievable </span></a>
+                  <a href="#"><img src="bootstrap_assgn/img/mickey-arthur.jpg" alt="micky-arthur" class="pull-left"/><span>Skill levels in the Pakistan team are unbelievable </span></a>
                 </p>
                </div>
                <div class="col-sm-3">
                 <p>
-                 <a href="#"><img src="img/australia.jpg" alt="australia" class="pull-left"/><span>Australia retain number one position in ODIs after tri-series win</span></a>
+                 <a href="#"><img src="bootstrap_assgn/img/australia.jpg" alt="australia" class="pull-left"/><span>Australia retain number one position in ODIs after tri-series win</span></a>
                </p>
               </div>
                </div>
@@ -482,7 +489,7 @@
                 </div>
                 <div class="modal-body">
                   <p>
-                    <iframe width="535" height="315" src="https://www.youtube.com/embed/xyJrArjEcN4?autoplay=1&loop=1&playlist=FzmKf_amn8I" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="535" height="315" src="https://www.youtube.com/embed/MMNrTi2IBwo?autoplay=1&loop=1&playlist=FzmKf_amn8I" frameborder="0" allowfullscreen></iframe>
                   </p>
                   </div>
                   <div class="modal-footer">
@@ -574,13 +581,13 @@
     <script src="http://code.jquery.com/jquery.js"></script>
 
   	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-  	<script>window.jQuery || document.write('<script src="css/jquery-1.8.2.min.js"><\/script>')</script>
+  	<script>window.jQuery || document.write('<script src="bootstrap_assgn/js/jquery-1.8.2.min.js"><\/script>')</script>
 
   	<!-- Bootstrap JS -->
-  	<script src="css/bootstrap.min.js"></script>
+  	<script src="bootstrap_assgn/js/bootstrap.min.js"></script>
 
   	<!-- Custom JS -->
-  	<script src="css/script.js"></script>
+  	<script src="bootstrap_assgn/js/script.js"></script>
 
   </body>
 </html>
